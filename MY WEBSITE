@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JeevanSetu AI</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#dfe9f3,#ffffff);
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 50px;
+    background:#4e73df;
+    color:white;
+}
+nav h2{
+    margin:0;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+.hero h1{
+    font-size:50px;
+    color:#4e73df;
+}
+.hero p{
+    font-size:20px;
+    max-width:600px;
+    margin:auto;
+}
+.hero button{
+    padding:12px 30px;
+    margin-top:20px;
+    border:none;
+    background:#ff6b81;
+    color:white;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/* FEATURES */
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:50px 20px;
+}
+.card{
+    background:white;
+    width:260px;
+    margin:15px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.card h3{
+    color:#4e73df;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#4e73df;
+    color:white;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+    .hero h1{
+        font-size:35px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>JeevanSetu AI</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Life Made Easy with AI 💡</h1>
+    <p>JeevanSetu AI is your smart digital bridge to manage study, money, stress, and goals with intelligent solutions.</p>
+    <button>Try Smart Solution</button>
+</section>
+
+<section class="features">
+    <div class="card">
+        <h3>📚 Smart Study Planner</h3>
+        <p>Enter subjects & exam date → Get automatic AI timetable.</p>
+    </div>
+
+    <div class="card">
+        <h3>💰 Expense Helper</h3>
+        <p>Track income & expenses → Smart saving plan suggestions.</p>
+    </div>
+
+    <div class="card">
+        <h3>🧠 Stress Relief</h3>
+        <p>Select mood → Get instant relaxing activity ideas.</p>
+    </div>
+
+    <div class="card">
+        <h3>📝 Resume Builder</h3>
+        <p>Enter details → Generate clean professional resume.</p>
+    </div>
+
+    <div class="card">
+        <h3>🎯 Goal Tracker</h3>
+        <p>Set goals → Track progress with reminders.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 JeevanSetu AI | Designed with 💙 for Smart Life
+</footer>
+
+</body>
+</html>
